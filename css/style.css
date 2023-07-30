@@ -3898,7 +3898,7 @@ input[type=button].btn-block {
   position: fixed !important;
   transition: all ease-in-out 0.5s !important;
   transition-timing-function: ease-in-out !important;
-  padding: 3rem auto !important;
+  padding: 3rem 1rem !important;
 
 }
 .nav-fill > .nav-link,
