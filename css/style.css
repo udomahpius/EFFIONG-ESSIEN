@@ -3888,6 +3888,7 @@ input[type=button].btn-block {
   .mobile-display{
     font-size: 13px !important;
     width: 100% !important;
+    display: block !important;
   }
 }
 .top-nav{
