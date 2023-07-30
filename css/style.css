@@ -3888,9 +3888,6 @@ input[type=button].btn-block {
   .mobile-display{
     font-size: 13px !important;
   }
-  .nav-fixed-onscroll{
-    padding: 2rem auto !important;
-  }
 }
 .top-nav{
   display: none !important;
@@ -3900,7 +3897,8 @@ input[type=button].btn-block {
 .scroll-nav{
   position: fixed !important;
   transition: all ease-in-out 0.5s !important;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out !important;
+  padding: 3rem auto !important;
 
 }
 .nav-fill > .nav-link,
