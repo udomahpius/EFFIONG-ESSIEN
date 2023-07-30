@@ -3887,6 +3887,7 @@ input[type=button].btn-block {
 @media screen and (max-width:700px) {
   .mobile-display{
     font-size: 13px !important;
+    width: 100% !important;
   }
 }
 .top-nav{
