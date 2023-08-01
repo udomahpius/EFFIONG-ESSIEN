@@ -68,7 +68,7 @@ const navScrollfixed = window.addEventListener('scroll', () => {
     let allowScroll = false;
     let scrollElement = document.querySelector('.nav-fixed-onscroll');
     let topNav = document.querySelector('.clear-head');
-    if (window.scrollY > 2) {
+    if (window.scrollY >= 10) {
         scrollElement.classList.add('scroll-nav');
         topNav.classList.add('top-nav');
         allowScroll = true;
