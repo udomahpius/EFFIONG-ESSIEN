@@ -5620,7 +5620,11 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   color: #848484;
 }
-@media screen and (min-width:700px){
+@media screen and (max-width:700px){
+  .size-img{
+    height: 70vh !important;
+    width: 100% !important;
+  }
   .size-img img{
     height: 100% !important;
     width: 100% !important;
