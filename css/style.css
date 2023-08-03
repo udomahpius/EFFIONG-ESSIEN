@@ -4289,7 +4289,11 @@ input[type=button].btn-block {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
-
+@media screen and (max-width: 380px){
+  .md-margin-top{
+  /* top: 70% !important; */
+  }
+}
 .card {
   position: relative;
   display: flex;
@@ -5616,15 +5620,15 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   color: #848484;
 }
-@media screen and (min-width:700px){
+/* @media screen and (min-width:700px){
   .size-img img{
     height:auto!important;
   }
   
-}
+} */
 .size-img{
  background-blend-mode: soft-light !important;
- background-color: var(--gray-dark);
+ background-color:#062c33;
 }
 
 .carousel {
