@@ -88,8 +88,8 @@ const navScrollfixed = window.addEventListener('scroll', () => {
 
         let commandLine = false;
         let allowDisplayElement = document.querySelector('.allow-display');allowDisplayElement.classList.add('display-none');
-        let btnEleText = document.querySelector('.view_item')
-            const displayItem = document.querySelector('.view_item').addEventListener('click', () => {
+        let btnEleText = document.querySelector('.view_item');
+         const displayItem = document.querySelector('.view_item').addEventListener('click', () => {
         
                 if (commandLine === false) {
                     allowDisplayElement.classList.remove('display-none');
