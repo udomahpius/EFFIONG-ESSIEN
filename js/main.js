@@ -78,3 +78,31 @@ const navScrollfixed = window.addEventListener('scroll', () => {
         allowScroll = false;
     }
 })
+
+
+
+        let closeContent = document.querySelector('.hide-me').addEventListener('click', () => {
+            allowDisplayElement.classList.add('display-none')
+            btnEleText.innerHTML = 'View More';
+        })
+
+        let commandLine = false;
+        let allowDisplayElement = document.querySelector('.allow-display');allowDisplayElement.classList.add('display-none');
+        let btnEleText = document.querySelector('.view_item')
+            const displayItem = document.querySelector('.view_item').addEventListener('click', () => {
+        
+                if (commandLine === false) {
+                    allowDisplayElement.classList.remove('display-none');
+                    btnEleText.innerHTML = 'Hide Content';
+                    commandLine = true;
+                } else if (commandLine === false) {
+                    closeContent()
+                    commandLine = true;
+                } else {
+                    allowDisplayElement.classList.add('display-none');
+                    btnEleText.innerHTML = 'View More';
+                    commandLine = false
+                }
+            })
+   
+       
