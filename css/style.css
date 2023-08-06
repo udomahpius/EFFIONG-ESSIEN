@@ -113,6 +113,12 @@ body {
   text-align: left;
   background-color: #ffffff;
 }
+p{
+  font-size: 17px !important;
+}
+button, a{
+  font-size: 19px !important;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -416,7 +422,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 1200px) {
   h1, .h1 {
@@ -452,7 +458,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.10rem;
 }
 
 h6, .h6 {
