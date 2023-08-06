@@ -107,6 +107,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     width: 100% !important;
   }
 }
+
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
@@ -5663,6 +5664,11 @@ a.close.disabled {
 .size-img{
  background-blend-mode: soft-light !important;
  background-color:#3a4660;
+}
+
+.carousel-height .testimonial-text{
+  height: 40vh !important;
+  overflow-y: scroll !important;
 }
 
 .carousel {
