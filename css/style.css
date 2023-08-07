@@ -54,6 +54,9 @@
 .transition{
   transition: all ease-in-out 0.5s;
 }
+.css-appointment-hidden{
+  display: none !important;
+}
 /*-------------x call css from script x----------------*/
 .display-5{
   font-size: 20px;
