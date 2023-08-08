@@ -45,6 +45,22 @@
   --white-bg:#ffffff;
   --color-text:#ffc107;
 }
+
+.sm-text{
+  font-size: 15px !important;
+}
+
+.mobile-display-img  a img{
+  width:70px !important;
+  
+}
+@media screen and (max-width:700px) {
+  .mobile-display-img a img{
+    width: 50px !important;
+    
+  }
+  
+}
 /*---------------- call css from script --------------------*/
 
 .display-none{
