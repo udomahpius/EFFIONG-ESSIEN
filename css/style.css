@@ -74,6 +74,11 @@
 .css-appointment-hidden{
   display: none !important;
 }
+
+
+.service-hidden-icon{
+  display:none !important;
+}
 /*-------------x call css from script x----------------*/
 .display-5{
   font-size: 20px;
@@ -106,7 +111,7 @@
   color: var(--btn-text) !important;
 }
 .bg-soft{
-  background-color: #e0dcdc;
+  background-color: #f5f5f0;
 }
 .css-shadow .bg-secondary, .bg-soft{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
