@@ -38,7 +38,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 :root{
-  --background:black;
+  --background:#252525;
   --btn-bg:#8c1c40;
   --btn-text:#8c1c40;
   --white-text:#ffffff;
@@ -46,7 +46,10 @@
   --color-text:#ffc107;
 }
 
-
+.p-top{
+  padding-top: 10% !important;
+  padding-bottom: 3rem;
+}
 .sm-text{
   font-size: 15px !important;
 }
@@ -105,7 +108,8 @@
   background-color: var(--btn-bg) !important;
 }
 .btn-bg:hover{
-  background-color: var(--danger) !important;
+  background-color: var(--background) !important;
+  color: #fff;
 }
 .btn-color{
   color: var(--btn-text) !important;
@@ -3939,7 +3943,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #E45F4E;
+  background-color: #ba8b00;
 }
 @media screen and (max-width:700px) {
   .mobile-display{
@@ -3989,7 +3993,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: auto 1rem;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4028,6 +4032,7 @@ input[type=button].btn-block {
 }
 .navbar-nav .dropdown-menu {
   position: static;
+  width: 900px;
   float: none;
 }
 
